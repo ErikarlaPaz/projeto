@@ -31,7 +31,8 @@ body * {
   color: var(--text-color);
 }
 #container {
-  width: 360px;
+  width: 100%;
+  max-width: 588px;
   margin: 56px auto 0;
   padding: 0 24px;
 }
@@ -90,7 +91,8 @@ ul {
   padding: 24px 0;
 }
 ul li a {
-  width: 30%;
+  width: 70%;
+  max-width: 588px;
   display: flex;
   flex-direction: column;
   align-items: center;
